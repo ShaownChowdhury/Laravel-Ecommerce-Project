@@ -14,7 +14,7 @@ class CategoryController extends Controller
     use SlugGenerator;
 
     function category(){
-        $categories = Category::select('id','category','category_slug')->latest()->paginate(2);
+        $categories = Category::select('id','category','category_slug')->latest()->paginate(5);
         // dd($categories);
         return view('backend.category.addCategory',compact('categories'));
     }
