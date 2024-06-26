@@ -9,7 +9,7 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <div class="title">
-              <h2>eCommerce Dashboard</h2>
+              <h2>Dashboard</h2>
             </div>
           </div>
           <!-- end col -->
